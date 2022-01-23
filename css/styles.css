@@ -14,6 +14,9 @@ ul {
 /*  цвет фона footer #2F303A */
 
 /* site-nav */
+nav {
+  background-color: #ffffff;
+}
 .link {
   color: #212121;
 }
@@ -22,4 +25,41 @@ ul {
 }
 .link:focus {
   color: #2196f3;
+}
+
+.main-title {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+
+.main-title-link {
+  color: #ffffff;
+}
+
+.title {
+  color: #212121;
+}
+
+.general-features-title {
+  color: #212121;
+}
+
+.text {
+  color: #757575;
+}
+
+.name {
+  color: #212121;
+}
+.our-team {
+  background-color: #f5f4fa;
+}
+footer {
+  background-color: #2f303a;
+}
+.home-address {
+  color: #ffffff;
+}
+.contact {
+  color: rgba(255, 255, 255, 0.6);
 }
