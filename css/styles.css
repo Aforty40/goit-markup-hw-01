@@ -14,3 +14,12 @@ ul {
 /*  цвет фона footer #2F303A */
 
 /* site-nav */
+.link {
+  color: #212121;
+}
+.link:hover {
+  color: #2196f3;
+}
+.link:focus {
+  color: #2196f3;
+}
