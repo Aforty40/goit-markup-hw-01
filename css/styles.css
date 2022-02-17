@@ -2,14 +2,18 @@ body {
   background-color: #e5e5e5;
   color: #757575;
 }
-
+:root {
+  --color-text: #757575;
+  --color-link: #212121;
+  --color-acsent: #2196f3;
+}
 ul {
   list-style: none;
 }
 /* основной цвет шрифта #757575 */
 /* вторичный цвет шрифта #212121 */
 /* акцент #2196F3*/
-/* вторичный цвет фона  #F5F4FA */
+/* цвет фона наша команда #F5F4FA */
 /* цвет фона nav #ffffff */
 /*  цвет фона footer #2F303A */
 
@@ -18,13 +22,13 @@ header {
   background-color: #ffffff;
 }
 .link {
-  color: #212121;
+  color: var(--color-Link);
 }
 .link:hover {
-  color: #2196f3;
+  color: var(--color-acsent);
 }
 .link:focus {
-  color: #2196f3;
+  color: var(--color-acsent);
 }
 
 .main-title {
@@ -45,7 +49,7 @@ header {
 }
 
 .text {
-  color: #757575;
+  color: var(--color-text);
 }
 
 .name {
@@ -62,4 +66,16 @@ footer {
 }
 .contact {
   color: rgba(255, 255, 255, 0.6);
+}
+
+.logo {
+  color: var(--color-acsent);
+}
+
+.logo-header {
+  color: var(--color-link);
+}
+
+.logo-footer {
+  color: #ffffff;
 }
