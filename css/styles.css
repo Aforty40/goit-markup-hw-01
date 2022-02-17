@@ -1,6 +1,8 @@
 body {
   background-color: #e5e5e5;
   color: #757575;
+
+  font-family: roboto, suns-serif;
 }
 :root {
   --color-text: #757575;
@@ -70,12 +72,15 @@ footer {
 
 .logo {
   color: var(--color-acsent);
+  font-family: raleway;
 }
 
 .logo-header {
   color: var(--color-link);
+  font-family: raleway;
 }
 
 .logo-footer {
   color: #ffffff;
+  font-family: raleway;
 }
