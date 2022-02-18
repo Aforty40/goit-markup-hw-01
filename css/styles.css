@@ -1,14 +1,16 @@
-body {
-  background-color: #e5e5e5;
-  color: #757575;
-  font-family: roboto, suns-serif;
-  letter-spacing: 0.03em;
-}
 :root {
   --color-text: #757575;
   --color-link: #212121;
   --color-acsent: #2196f3;
+  --color-background: #e5e5e5;
 }
+body {
+  color: #757575;
+  font-family: roboto, suns-serif;
+  letter-spacing: 0.03em;
+  background-color: var(--color-background);
+}
+
 ul {
   list-style: none;
 }
@@ -60,8 +62,7 @@ header {
 }
 
 .title {
-  color: #212121;
-  font-weight: 700d;
+  font-weight: 500;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -69,7 +70,7 @@ header {
 }
 
 .general-features-title {
-  color: #212121;
+  color: var(--color-link);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -89,14 +90,14 @@ header {
 }
 
 .name {
-  color: #212121;
+  color: var(--color-link);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19px;
   letter-spacing: 0.03em;
 }
 .name-text {
-  color: #757575;
+  color: var(--color-text);
   font-size: 16px;
   line-height: 1.19px;
   letter-spacing: 0.03em;
